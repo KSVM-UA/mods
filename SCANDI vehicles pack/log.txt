@@ -1,0 +1,248 @@
+WARNING: 18.07.2016 13:30:37: 
+The following content file: "pc\texture\assets\2d\interface\common\unitsicons\pact\fallchirmjager.tgv"cannot be get from the specified container file.
+-----------------------------------------------------
+
+ERROR: 18.07.2016 13:30:37: 
+System.InvalidOperationException: The installer was unable to find the following content file "pc\texture\assets\2d\interface\common\unitsicons\pact\fallchirmjager.tgv"
+   в WargameModInstaller.Model.Containers.Edata.EdataFile.GetContentFileByPath(String contentPath)
+   в WargameModInstaller.Services.Commands.ReplaceImageCmdExecutor.ExecuteCommandsLogic(CmdsExecutionData data)
+   в WargameModInstaller.Services.Commands.Base.ModNestedTargetBySourceCmdExecutor`1.ExecuteInternal(CmdExecutionContext context, CancellationToken token)
+   в WargameModInstaller.Services.Commands.Base.CmdExecutorBase`1.Execute(CmdExecutionContext context, CancellationToken token)
+   в WargameModInstaller.Services.Commands.SharedNestedTargetCmdsExecutor.Execute(CmdExecutionContext context, CancellationToken token)
+   в WargameModInstaller.Services.Install.InstallerService.<RunInstallAsync>b__27()
+   в System.Threading.Tasks.Task.InnerInvoke()
+   в System.Threading.Tasks.Task.Execute()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в WargameModInstaller.Services.Install.InstallerService.<RunInstallAsync>d__2c.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в WargameModInstaller.Services.Install.InstallerService.<InstallAsync>d__18.MoveNext()
+-----------------------------------------------------
+
+WARNING: 18.07.2016 13:33:17: 
+The following content file: "pc\texture\assets\2d\interface\common\unitsicons\pact\fallchirmjager.tgv.dds"cannot be get from the specified container file.
+-----------------------------------------------------
+
+ERROR: 18.07.2016 13:33:18: 
+System.InvalidOperationException: The installer was unable to find the following content file "pc\texture\assets\2d\interface\common\unitsicons\pact\fallchirmjager.tgv.dds"
+   в WargameModInstaller.Model.Containers.Edata.EdataFile.GetContentFileByPath(String contentPath)
+   в WargameModInstaller.Services.Commands.ReplaceImageCmdExecutor.ExecuteCommandsLogic(CmdsExecutionData data)
+   в WargameModInstaller.Services.Commands.Base.ModNestedTargetBySourceCmdExecutor`1.ExecuteInternal(CmdExecutionContext context, CancellationToken token)
+   в WargameModInstaller.Services.Commands.Base.CmdExecutorBase`1.Execute(CmdExecutionContext context, CancellationToken token)
+   в WargameModInstaller.Services.Commands.SharedNestedTargetCmdsExecutor.Execute(CmdExecutionContext context, CancellationToken token)
+   в WargameModInstaller.Services.Install.InstallerService.<RunInstallAsync>b__27()
+   в System.Threading.Tasks.Task.InnerInvoke()
+   в System.Threading.Tasks.Task.Execute()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в WargameModInstaller.Services.Install.InstallerService.<RunInstallAsync>d__2c.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в WargameModInstaller.Services.Install.InstallerService.<InstallAsync>d__18.MoveNext()
+-----------------------------------------------------
+
+WARNING: 18.07.2016 13:34:34: 
+The following content file: "pc\texture\assets\2d\interface\common\unitsicons\pact\fallschirmjager.tgv.dds"cannot be get from the specified container file.
+-----------------------------------------------------
+
+ERROR: 18.07.2016 13:34:34: 
+System.InvalidOperationException: The installer was unable to find the following content file "pc\texture\assets\2d\interface\common\unitsicons\pact\fallschirmjager.tgv.dds"
+   в WargameModInstaller.Model.Containers.Edata.EdataFile.GetContentFileByPath(String contentPath)
+   в WargameModInstaller.Services.Commands.ReplaceImageCmdExecutor.ExecuteCommandsLogic(CmdsExecutionData data)
+   в WargameModInstaller.Services.Commands.Base.ModNestedTargetBySourceCmdExecutor`1.ExecuteInternal(CmdExecutionContext context, CancellationToken token)
+   в WargameModInstaller.Services.Commands.Base.CmdExecutorBase`1.Execute(CmdExecutionContext context, CancellationToken token)
+   в WargameModInstaller.Services.Commands.SharedNestedTargetCmdsExecutor.Execute(CmdExecutionContext context, CancellationToken token)
+   в WargameModInstaller.Services.Install.InstallerService.<RunInstallAsync>b__27()
+   в System.Threading.Tasks.Task.InnerInvoke()
+   в System.Threading.Tasks.Task.Execute()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в WargameModInstaller.Services.Install.InstallerService.<RunInstallAsync>d__2c.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в WargameModInstaller.Services.Install.InstallerService.<InstallAsync>d__18.MoveNext()
+-----------------------------------------------------
+
+ERROR: 18.07.2016 14:03:36: 
+System.NotSupportedException: Unsupported PixelFormat B8G8R8A8_UNORM
+   в WargameModInstaller.Common.Utilities.Image.TGV.TgvUtilities.GetTgvFromPixelFormat(PixelFormats pixelFormat)
+   в WargameModInstaller.Infrastructure.Image.TgvDDSMoMipMapsReader.Read(String filePath)
+   в WargameModInstaller.Services.Commands.Base.ModImageBySourceCmdExecutor`1.DDSFileToTgv(String sourceFullPath, Boolean discardMipMaps)
+   в WargameModInstaller.Services.Commands.ReplaceImageCmdExecutor.ExecuteCommandsLogic(CmdsExecutionData data)
+   в WargameModInstaller.Services.Commands.Base.ModNestedTargetBySourceCmdExecutor`1.ExecuteInternal(CmdExecutionContext context, CancellationToken token)
+   в WargameModInstaller.Services.Commands.Base.CmdExecutorBase`1.Execute(CmdExecutionContext context, CancellationToken token)
+   в WargameModInstaller.Services.Commands.SharedNestedTargetCmdsExecutor.Execute(CmdExecutionContext context, CancellationToken token)
+   в WargameModInstaller.Services.Install.InstallerService.<RunInstallAsync>b__27()
+   в System.Threading.Tasks.Task.InnerInvoke()
+   в System.Threading.Tasks.Task.Execute()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в WargameModInstaller.Services.Install.InstallerService.<RunInstallAsync>d__2c.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в WargameModInstaller.Services.Install.InstallerService.<InstallAsync>d__18.MoveNext()
+-----------------------------------------------------
+
+ERROR: 18.07.2016 15:19:51: 
+WargameModInstaller.Services.Commands.CmdExecutionFailedException: One of the commands refers to a non-existing source file: "Cards\pionier.tgv.dds" 
+   в WargameModInstaller.Services.Commands.Base.ModNestedTargetBySourceCmdExecutor`1.ExecuteInternal(CmdExecutionContext context, CancellationToken token)
+   в WargameModInstaller.Services.Commands.Base.CmdExecutorBase`1.Execute(CmdExecutionContext context, CancellationToken token)
+   в WargameModInstaller.Services.Commands.SharedNestedTargetCmdsExecutor.Execute(CmdExecutionContext context, CancellationToken token)
+   в WargameModInstaller.Services.Install.InstallerService.<RunInstallAsync>b__27()
+   в System.Threading.Tasks.Task.InnerInvoke()
+   в System.Threading.Tasks.Task.Execute()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в WargameModInstaller.Services.Install.InstallerService.<RunInstallAsync>d__2c.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в WargameModInstaller.Services.Install.InstallerService.<InstallAsync>d__18.MoveNext()
+-----------------------------------------------------
+
+WARNING: 18.07.2016 15:20:35: 
+The following content file: "pc\texture\assets\2d\interface\common\unitsicons\pact\spz_bmp2.tgv"cannot be get from the specified container file.
+-----------------------------------------------------
+
+ERROR: 18.07.2016 15:20:35: 
+System.InvalidOperationException: The installer was unable to find the following content file "pc\texture\assets\2d\interface\common\unitsicons\pact\spz_bmp2.tgv"
+   в WargameModInstaller.Model.Containers.Edata.EdataFile.GetContentFileByPath(String contentPath)
+   в WargameModInstaller.Services.Commands.ReplaceImageCmdExecutor.ExecuteCommandsLogic(CmdsExecutionData data)
+   в WargameModInstaller.Services.Commands.Base.ModNestedTargetBySourceCmdExecutor`1.ExecuteInternal(CmdExecutionContext context, CancellationToken token)
+   в WargameModInstaller.Services.Commands.Base.CmdExecutorBase`1.Execute(CmdExecutionContext context, CancellationToken token)
+   в WargameModInstaller.Services.Commands.SharedNestedTargetCmdsExecutor.Execute(CmdExecutionContext context, CancellationToken token)
+   в WargameModInstaller.Services.Install.InstallerService.<RunInstallAsync>b__27()
+   в System.Threading.Tasks.Task.InnerInvoke()
+   в System.Threading.Tasks.Task.Execute()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в WargameModInstaller.Services.Install.InstallerService.<RunInstallAsync>d__2c.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в WargameModInstaller.Services.Install.InstallerService.<InstallAsync>d__18.MoveNext()
+-----------------------------------------------------
+
+ERROR: 18.07.2016 15:21:21: 
+WargameModInstaller.Services.Commands.CmdExecutionFailedException: One of the commands refers to a non-existing source file: "Cards\flarak_strela2.tgv.dds" 
+   в WargameModInstaller.Services.Commands.Base.ModNestedTargetBySourceCmdExecutor`1.ExecuteInternal(CmdExecutionContext context, CancellationToken token)
+   в WargameModInstaller.Services.Commands.Base.CmdExecutorBase`1.Execute(CmdExecutionContext context, CancellationToken token)
+   в WargameModInstaller.Services.Commands.SharedNestedTargetCmdsExecutor.Execute(CmdExecutionContext context, CancellationToken token)
+   в WargameModInstaller.Services.Install.InstallerService.<RunInstallAsync>b__27()
+   в System.Threading.Tasks.Task.InnerInvoke()
+   в System.Threading.Tasks.Task.Execute()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в WargameModInstaller.Services.Install.InstallerService.<RunInstallAsync>d__2c.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в WargameModInstaller.Services.Install.InstallerService.<InstallAsync>d__18.MoveNext()
+-----------------------------------------------------
+
+ERROR: 18.07.2016 16:09:03: 
+System.NotSupportedException: Unsupported PixelFormat B8G8R8A8_UNORM
+   в WargameModInstaller.Common.Utilities.Image.TGV.TgvUtilities.GetTgvFromPixelFormat(PixelFormats pixelFormat)
+   в WargameModInstaller.Infrastructure.Image.TgvDDSMoMipMapsReader.Read(String filePath)
+   в WargameModInstaller.Services.Commands.Base.ModImageBySourceCmdExecutor`1.DDSFileToTgv(String sourceFullPath, Boolean discardMipMaps)
+   в WargameModInstaller.Services.Commands.ReplaceImageCmdExecutor.ExecuteCommandsLogic(CmdsExecutionData data)
+   в WargameModInstaller.Services.Commands.Base.ModNestedTargetBySourceCmdExecutor`1.ExecuteInternal(CmdExecutionContext context, CancellationToken token)
+   в WargameModInstaller.Services.Commands.Base.CmdExecutorBase`1.Execute(CmdExecutionContext context, CancellationToken token)
+   в WargameModInstaller.Services.Commands.SharedNestedTargetCmdsExecutor.Execute(CmdExecutionContext context, CancellationToken token)
+   в WargameModInstaller.Services.Install.InstallerService.<RunInstallAsync>b__27()
+   в System.Threading.Tasks.Task.InnerInvoke()
+   в System.Threading.Tasks.Task.Execute()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в WargameModInstaller.Services.Install.InstallerService.<RunInstallAsync>d__2c.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в WargameModInstaller.Services.Install.InstallerService.<InstallAsync>d__18.MoveNext()
+-----------------------------------------------------
+
+WARNING: 18.07.2016 16:11:34: 
+The following content file: "pc\texture\assets\2d\interface\common\unitsicons\pact\pt76_desant.tgv"cannot be get from the specified container file.
+-----------------------------------------------------
+
+ERROR: 18.07.2016 16:11:35: 
+System.InvalidOperationException: The installer was unable to find the following content file "pc\texture\assets\2d\interface\common\unitsicons\pact\pt76_desant.tgv"
+   в WargameModInstaller.Model.Containers.Edata.EdataFile.GetContentFileByPath(String contentPath)
+   в WargameModInstaller.Services.Commands.ReplaceImageCmdExecutor.ExecuteCommandsLogic(CmdsExecutionData data)
+   в WargameModInstaller.Services.Commands.Base.ModNestedTargetBySourceCmdExecutor`1.ExecuteInternal(CmdExecutionContext context, CancellationToken token)
+   в WargameModInstaller.Services.Commands.Base.CmdExecutorBase`1.Execute(CmdExecutionContext context, CancellationToken token)
+   в WargameModInstaller.Services.Commands.SharedNestedTargetCmdsExecutor.Execute(CmdExecutionContext context, CancellationToken token)
+   в WargameModInstaller.Services.Install.InstallerService.<RunInstallAsync>b__27()
+   в System.Threading.Tasks.Task.InnerInvoke()
+   в System.Threading.Tasks.Task.Execute()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в WargameModInstaller.Services.Install.InstallerService.<RunInstallAsync>d__2c.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в WargameModInstaller.Services.Install.InstallerService.<InstallAsync>d__18.MoveNext()
+-----------------------------------------------------
+
+WARNING: 18.07.2016 19:33:33: 
+The following content file: "pc\texture\assets\2d\interface\common\unitsicons\nato\amos_swe.tgv"cannot be get from the specified container file.
+-----------------------------------------------------
+
+ERROR: 18.07.2016 19:33:33: 
+System.InvalidOperationException: The installer was unable to find the following content file "pc\texture\assets\2d\interface\common\unitsicons\nato\amos_swe.tgv"
+   в WargameModInstaller.Model.Containers.Edata.EdataFile.GetContentFileByPath(String contentPath)
+   в WargameModInstaller.Services.Commands.ReplaceImageCmdExecutor.ExecuteCommandsLogic(CmdsExecutionData data)
+   в WargameModInstaller.Services.Commands.Base.ModNestedTargetBySourceCmdExecutor`1.ExecuteInternal(CmdExecutionContext context, CancellationToken token)
+   в WargameModInstaller.Services.Commands.Base.CmdExecutorBase`1.Execute(CmdExecutionContext context, CancellationToken token)
+   в WargameModInstaller.Services.Commands.SharedNestedTargetCmdsExecutor.Execute(CmdExecutionContext context, CancellationToken token)
+   в WargameModInstaller.Services.Install.InstallerService.<RunInstallAsync>b__27()
+   в System.Threading.Tasks.Task.InnerInvoke()
+   в System.Threading.Tasks.Task.Execute()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в WargameModInstaller.Services.Install.InstallerService.<RunInstallAsync>d__2c.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в WargameModInstaller.Services.Install.InstallerService.<InstallAsync>d__18.MoveNext()
+-----------------------------------------------------
+
+WARNING: 18.07.2016 19:35:17: 
+The following content file: "pc\texture\assets\2d\interface\common\unitsicons\otan\strv105.tgv"cannot be get from the specified container file.
+-----------------------------------------------------
+
+ERROR: 18.07.2016 19:35:17: 
+System.InvalidOperationException: The installer was unable to find the following content file "pc\texture\assets\2d\interface\common\unitsicons\otan\strv105.tgv"
+   в WargameModInstaller.Model.Containers.Edata.EdataFile.GetContentFileByPath(String contentPath)
+   в WargameModInstaller.Services.Commands.ReplaceImageCmdExecutor.ExecuteCommandsLogic(CmdsExecutionData data)
+   в WargameModInstaller.Services.Commands.Base.ModNestedTargetBySourceCmdExecutor`1.ExecuteInternal(CmdExecutionContext context, CancellationToken token)
+   в WargameModInstaller.Services.Commands.Base.CmdExecutorBase`1.Execute(CmdExecutionContext context, CancellationToken token)
+   в WargameModInstaller.Services.Commands.SharedNestedTargetCmdsExecutor.Execute(CmdExecutionContext context, CancellationToken token)
+   в WargameModInstaller.Services.Install.InstallerService.<RunInstallAsync>b__27()
+   в System.Threading.Tasks.Task.InnerInvoke()
+   в System.Threading.Tasks.Task.Execute()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в WargameModInstaller.Services.Install.InstallerService.<RunInstallAsync>d__2c.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в WargameModInstaller.Services.Install.InstallerService.<InstallAsync>d__18.MoveNext()
+-----------------------------------------------------
+
