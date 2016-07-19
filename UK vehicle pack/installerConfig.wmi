@@ -1,0 +1,171 @@
+<?xml version='1.0'?>
+<WargameModInstallerConfig>
+
+  <Settings>
+    
+    <General>
+
+      <WargameVersion Version="RD"/>
+
+      <ModName>UK vehicle pack by #RDA kvasius</ModName>
+
+      <CriticalCommands Value="True"/>
+
+      <InstallationBackup Value="False"/>   
+    </General>
+    
+    <UI>
+      <Screens>
+
+        <WelcomeScreen>
+          <Header Text="UK vehicle pack by #RDA kvasius"/>
+    
+        </WelcomeScreen>
+
+        <LocationScreen>
+		  <Header Text="Please locate your Wargame Red Dragon's files."/>
+        </LocationScreen>
+
+        <ComponentSelectionScreen>
+		  <Header Text="Please select what do you want to install."/>
+        </ComponentSelectionScreen>
+
+        <ProgressScreen>
+		  <Header Text="Installation is ongoing."/>
+        </ProgressScreen>
+
+        <InstallCompletedScreen>
+		  <Header Text="The installation of icons is complete."/>
+        </InstallCompletedScreen>
+
+        <InstallFailedScreen>
+		  <Header Text="Something went wrong..Please be sure you haven't touched the Files, if you have, please delete that folder and re-extract the files without touching them, then execute the installer."/>
+        </InstallFailedScreen>
+
+        <InstallCanceledScreen>
+		  <Header Text="The installation has been cancelled."/>
+        </InstallCanceledScreen>
+      </Screens>
+    </UI>
+    
+  </Settings>
+  
+  
+  
+  <InstallCommands>	   
+
+   <Component name="UK vehicle pack by #RDA kvasius" type="Required" text="UK vehicle pack by #RDA kvasius">
+
+<ReplaceImage       
+      sourcePath="Cards\as90_braveheart_uk.tgv.dds"                                                          
+targetPath="Data\WARGAME\PC\510019512\510024196\ZZ_4.dat"                                             
+targetContentPath="pc\texture\pack\commoninterface.ppk|+pc\texture\assets\2d\interface\common\unitsicons\otan\as90_braveheart_uk.tgv"/>
+
+<ReplaceImage       
+      sourcePath="Cards\challenger_1.tgv.dds"                                                          
+targetPath="Data\WARGAME\PC\510019512\510024196\ZZ_4.dat"                                             
+targetContentPath="pc\texture\pack\commoninterface.ppk|+pc\texture\assets\2d\interface\common\unitsicons\otan\challenger_1.tgv"/>
+   
+<ReplaceImage       
+      sourcePath="Cards\challenger2.tgv.dds"                                                          
+targetPath="Data\WARGAME\PC\510019512\510024196\ZZ_4.dat"                                             
+targetContentPath="pc\texture\pack\commoninterface.ppk|+pc\texture\assets\2d\interface\common\unitsicons\otan\challenger2.tgv"/>
+
+<ReplaceImage                
+          sourcePath="Cards\challenger_marksman_uk.tgv.dds"                                                             
+targetPath="Data\WARGAME\PC\510019512\510024196\ZZ_4.dat"                                             
+targetContentPath="pc\texture\pack\commoninterface.ppk|+pc\texture\assets\2d\interface\common\unitsicons\otan\challenger_marksman_uk.tgv"/>
+
+<ReplaceImage       
+sourcePath="Cards\chieftain_mk_5.tgv.dds"                                                             
+targetPath="Data\WARGAME\PC\510019512\510024196\ZZ_4.dat"                                             
+targetContentPath="pc\texture\pack\commoninterface.ppk|+pc\texture\assets\2d\interface\common\unitsicons\otan\chieftain_mk_5.tgv"/>
+
+<ReplaceImage       
+
+sourcePath="Cards\chieftain_mk_11_uk.tgv.dds"                                                          
+targetPath="Data\WARGAME\PC\510019512\510024196\ZZ_4.dat"                                             
+targetContentPath="pc\texture\pack\commoninterface.ppk|+pc\texture\assets\2d\interface\common\unitsicons\otan\chieftain_mk_11_uk.tgv"/>
+
+<ReplaceImage
+                
+sourcePath="Cards\eurofighter_typhoon_uk.tgv.dds"                                                             
+targetPath="Data\WARGAME\PC\510019512\510024196\ZZ_4.dat"                                             
+targetContentPath="pc\texture\pack\commoninterface.ppk|+pc\texture\assets\2d\interface\common\unitsicons\otan\eurofighter_typhoon_uk.tgv"/>
+
+<ReplaceImage       
+
+sourcePath="Cards\fv107_scimitar.tgv.dds"                                                             
+targetPath="Data\WARGAME\PC\510019512\510024196\ZZ_4.dat"                                             
+targetContentPath="pc\texture\pack\commoninterface.ppk|+pc\texture\assets\2d\interface\common\unitsicons\otan\fv107_scimitar.tgv"/>
+
+<ReplaceImage 
+      
+      sourcePath="Cards\fv432_rarden.tgv.dds"                                                          
+targetPath="Data\WARGAME\PC\510019512\510024196\ZZ_4.dat"                                             
+targetContentPath="pc\texture\pack\commoninterface.ppk|+pc\texture\assets\2d\interface\common\unitsicons\otan\fv432_rarden.tgv"/>
+
+<ReplaceImage  
+              
+          sourcePath="Cards\gazelle_ah1.tgv.dds"                                                             
+targetPath="Data\WARGAME\PC\510019512\510024196\ZZ_4.dat"                                             
+targetContentPath="pc\texture\pack\commoninterface.ppk|+pc\texture\assets\2d\interface\common\unitsicons\otan\gazelle_ah1.tgv"/>
+
+<ReplaceImage       
+
+sourcePath="Cards\harrier_gr3.tgv.dds"                                                             
+targetPath="Data\WARGAME\PC\510019512\510024196\ZZ_4.dat"                                             
+targetContentPath="pc\texture\pack\commoninterface.ppk|+pc\texture\assets\2d\interface\common\unitsicons\otan\harrier_gr3.tgv"/>
+
+<ReplaceImage                
+          sourcePath="Cards\harrier_gr5.tgv.dds"                                                             
+targetPath="Data\WARGAME\PC\510019512\510024196\ZZ_4.dat"                                             
+targetContentPath="pc\texture\pack\commoninterface.ppk|+pc\texture\assets\2d\interface\common\unitsicons\otan\harrier_gr5.tgv"/>
+
+<ReplaceImage       
+
+sourcePath="Cards\harrier_gr7_uk.tgv.dds"                                                             
+targetPath="Data\WARGAME\PC\510019512\510024196\ZZ_4.dat"                                             
+targetContentPath="pc\texture\pack\commoninterface.ppk|+pc\texture\assets\2d\interface\common\unitsicons\otan\harrier_gr7_uk.tgv"/>
+
+<ReplaceImage  
+   
+sourcePath="Cards\lynx3_uk.tgv.dds"                                                          
+targetPath="Data\WARGAME\PC\510019512\510024196\ZZ_4.dat"                                             
+targetContentPath="pc\texture\pack\commoninterface.ppk|+pc\texture\assets\2d\interface\common\unitsicons\otan\lynx3_uk.tgv"/>
+
+<ReplaceImage                
+          sourcePath="Cards\rapier_fsa.tgv.dds"                                                             
+targetPath="Data\WARGAME\PC\510019512\510024196\ZZ_4.dat"                                             
+targetContentPath="pc\texture\pack\commoninterface.ppk|+pc\texture\assets\2d\interface\common\unitsicons\otan\rapier_fsa.tgv"/>
+
+<ReplaceImage       
+      sourcePath="Cards\stormer_hmv_uk.tgv.dds"                                                          
+targetPath="Data\WARGAME\PC\510019512\510024196\ZZ_4.dat"                                             
+targetContentPath="pc\texture\pack\commoninterface.ppk|+pc\texture\assets\2d\interface\common\unitsicons\otan\stormer_hmv_uk.tgv"/>
+
+<ReplaceImage       
+      sourcePath="Cards\tornado_adv_f3.tgv.dds"                                                          
+targetPath="Data\WARGAME\PC\510019512\510024196\ZZ_4.dat"                                             
+targetContentPath="pc\texture\pack\commoninterface.ppk|+pc\texture\assets\2d\interface\common\unitsicons\otan\tornado_adv_f3.tgv"/>
+
+<ReplaceImage                
+          sourcePath="Cards\tornado_gr1b.tgv.dds"                                                             
+targetPath="Data\WARGAME\PC\510019512\510024196\ZZ_4.dat"                                             
+targetContentPath="pc\texture\pack\commoninterface.ppk|+pc\texture\assets\2d\interface\common\unitsicons\otan\tornado_gr1b.tgv"/>
+
+<ReplaceImage       
+sourcePath="Cards\tracked_rapier.tgv.dds"                                                             
+targetPath="Data\WARGAME\PC\510019512\510024196\ZZ_4.dat"                                             
+targetContentPath="pc\texture\pack\commoninterface.ppk|+pc\texture\assets\2d\interface\common\unitsicons\otan\tracked_rapier.tgv"/>
+
+<ReplaceImage       
+sourcePath="Cards\challenger_mk_3_uk.tgv.dds"                                                             
+targetPath="Data\WARGAME\PC\510019512\510024196\ZZ_4.dat"                                             
+targetContentPath="pc\texture\pack\commoninterface.ppk|+pc\texture\assets\2d\interface\common\unitsicons\otan\challenger_mk_3_uk.tgv"/>
+
+
+	</Component>
+  </InstallCommands>
+  
+</WargameModInstallerConfig>
