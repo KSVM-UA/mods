@@ -136,7 +136,7 @@ targetContentPath="pc\texture\pack\commoninterface.ppk|+pc\texture\assets\2d\int
 
 <ReplaceImage                
           sourcePath="Cards\pnmk_m92_wildcat.tgv.dds"                                                             
-targetPath="Data\WARGAME\PC\430000587\430000609\ZZ_4.dat"                                             
+targetPath="Data\WARGAME\PC\510019512\510024196\ZZ_4.dat"                                             
 targetContentPath="pc\texture\pack\commoninterface.ppk|+pc\texture\assets\2d\interface\common\unitsicons\otan\pnmk_m92_wildcat.tgv"/>
 
 <ReplaceImage       
