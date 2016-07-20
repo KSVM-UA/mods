@@ -1,0 +1,158 @@
+<?xml version='1.0'?>
+<WargameModInstallerConfig>
+
+  <Settings>
+    
+    <General>
+
+      <WargameVersion Version="RD"/>
+
+      <ModName>UK infantry pack by #RDA kvasius</ModName>
+
+      <CriticalCommands Value="True"/>
+
+      <InstallationBackup Value="False"/>   
+    </General>
+    
+    <UI>
+      <Screens>
+
+        <WelcomeScreen>
+          <Header Text="UK infantry pack by #RDA kvasius"/>
+    
+        </WelcomeScreen>
+
+        <LocationScreen>
+		  <Header Text="Please locate your Wargame Red Dragon's files."/>
+        </LocationScreen>
+
+        <ComponentSelectionScreen>
+		  <Header Text="Please select what do you want to install."/>
+        </ComponentSelectionScreen>
+
+        <ProgressScreen>
+		  <Header Text="Installation is ongoing."/>
+        </ProgressScreen>
+
+        <InstallCompletedScreen>
+		  <Header Text="The installation of icons is complete."/>
+        </InstallCompletedScreen>
+
+        <InstallFailedScreen>
+		  <Header Text="Something went wrong..Please be sure you haven't touched the Files, if you have, please delete that folder and re-extract the files without touching them, then execute the installer."/>
+        </InstallFailedScreen>
+
+        <InstallCanceledScreen>
+		  <Header Text="The installation has been cancelled."/>
+        </InstallCanceledScreen>
+      </Screens>
+    </UI>
+    
+  </Settings>
+  
+  
+  
+  <InstallCommands>	   
+
+   <Component name="UK infantry pack by #RDA kvasius" type="Required" text="UK infantry pack by #RDA kvasius">
+
+<ReplaceImage       
+      sourcePath="Cards\fusiliers.tgv.dds"                                                          
+targetPath="Data\WARGAME\PC\510019512\510024196\ZZ_4.dat"                                             
+targetContentPath="pc\texture\pack\commoninterface.ppk|+pc\texture\assets\2d\interface\common\unitsicons\otan\fusiliers.tgv"/>
+
+<ReplaceImage       
+      sourcePath="Cards\green_jacket.tgv.dds"                                                          
+targetPath="Data\WARGAME\PC\510019512\510024196\ZZ_4.dat"                                             
+targetContentPath="pc\texture\pack\commoninterface.ppk|+pc\texture\assets\2d\interface\common\unitsicons\otan\green_jacket.tgv"/>
+   
+<ReplaceImage       
+      sourcePath="Cards\javelin.tgv.dds"                                                          
+targetPath="Data\WARGAME\PC\510019512\510024196\ZZ_4.dat"                                             
+targetContentPath="pc\texture\pack\commoninterface.ppk|+pc\texture\assets\2d\interface\common\unitsicons\otan\javelin.tgv"/>
+
+<ReplaceImage                
+          sourcePath="Cards\milan_f1.tgv.dds"                                                             
+targetPath="Data\WARGAME\PC\510019512\510024196\ZZ_4.dat"                                             
+targetContentPath="pc\texture\pack\commoninterface.ppk|+pc\texture\assets\2d\interface\common\unitsicons\otan\milan_f1.tgv"/>
+
+<ReplaceImage       
+sourcePath="Cards\rm_commandos.tgv.dds"                                                             
+targetPath="Data\WARGAME\PC\510019512\510024196\ZZ_4.dat"                                             
+targetContentPath="pc\texture\pack\commoninterface.ppk|+pc\texture\assets\2d\interface\common\unitsicons\otan\rm_commandos.tgv"/>
+
+<ReplaceImage       
+
+sourcePath="Cards\sas.tgv.dds"                                                          
+targetPath="Data\WARGAME\PC\510019512\510024196\ZZ_4.dat"                                             
+targetContentPath="pc\texture\pack\commoninterface.ppk|+pc\texture\assets\2d\interface\common\unitsicons\otan\sas.tgv"/>
+
+<ReplaceImage
+                
+sourcePath="Cards\sbs.tgv.dds"                                                             
+targetPath="Data\WARGAME\PC\510019512\510024196\ZZ_4.dat"                                             
+targetContentPath="pc\texture\pack\commoninterface.ppk|+pc\texture\assets\2d\interface\common\unitsicons\otan\sbs.tgv"/>
+
+<ReplaceImage       
+
+sourcePath="Cards\uk_85_fusiliers.tgv.dds"                                                             
+targetPath="Data\WARGAME\PC\510019512\510024196\ZZ_4.dat"                                             
+targetContentPath="pc\texture\pack\commoninterface.ppk|+pc\texture\assets\2d\interface\common\unitsicons\otan\uk_85_fusiliers.tgv"/>
+
+<ReplaceImage 
+      
+      sourcePath="Cards\uk_85_green_jacket.tgv.dds"                                                          
+targetPath="Data\WARGAME\PC\510019512\510024196\ZZ_4.dat"                                             
+targetContentPath="pc\texture\pack\commoninterface.ppk|+pc\texture\assets\2d\interface\common\unitsicons\otan\uk_85_green_jacket.tgv"/>
+
+<ReplaceImage  
+              
+          sourcePath="Cards\uk_85_gurkhas.tgv.dds"                                                             
+targetPath="Data\WARGAME\PC\510019512\510024196\ZZ_4.dat"                                             
+targetContentPath="pc\texture\pack\commoninterface.ppk|+pc\texture\assets\2d\interface\common\unitsicons\otan\uk_85_gurkhas.tgv"/>
+
+<ReplaceImage       
+
+sourcePath="Cards\uk_85_rm_commandos.tgv.dds"                                                             
+targetPath="Data\WARGAME\PC\510019512\510024196\ZZ_4.dat"                                             
+targetContentPath="pc\texture\pack\commoninterface.ppk|+pc\texture\assets\2d\interface\common\unitsicons\otan\uk_85_rm_commandos.tgv"/>
+
+<ReplaceImage                
+          sourcePath="Cards\uk_cmd_squad.tgv.dds"                                                             
+targetPath="Data\WARGAME\PC\510019512\510024196\ZZ_4.dat"                                             
+targetContentPath="pc\texture\pack\commoninterface.ppk|+pc\texture\assets\2d\interface\common\unitsicons\otan\uk_cmd_squad.tgv"/>
+
+<ReplaceImage       
+
+sourcePath="Cards\uk_milan_f2.tgv.dds"                                                             
+targetPath="Data\WARGAME\PC\510019512\510024196\ZZ_4.dat"                                             
+targetContentPath="pc\texture\pack\commoninterface.ppk|+pc\texture\assets\2d\interface\common\unitsicons\otan\uk_milan_f2.tgv"/>
+
+<ReplaceImage
+                
+sourcePath="Cards\paratroopers.tgv.dds"                                                             
+targetPath="Data\WARGAME\PC\510019512\510024196\ZZ_4.dat"                                             
+targetContentPath="pc\texture\pack\commoninterface.ppk|+pc\texture\assets\2d\interface\common\unitsicons\otan\paratroopers.tgv"/>
+
+<ReplaceImage       
+
+sourcePath="Cards\uk_85_paratroopers.tgv.dds"                                                             
+targetPath="Data\WARGAME\PC\510019512\510024196\ZZ_4.dat"                                             
+targetContentPath="pc\texture\pack\commoninterface.ppk|+pc\texture\assets\2d\interface\common\unitsicons\otan\uk_85_paratroopers.tgv"/>
+
+<ReplaceImage       
+
+sourcePath="Cards\laad_blowpipe.tgv.dds"                                                             
+targetPath="Data\WARGAME\PC\510019512\510024196\ZZ_4.dat"                                             
+targetContentPath="pc\texture\pack\commoninterface.ppk|+pc\texture\assets\2d\interface\common\unitsicons\otan\laad_blowpipe.tgv"/>
+
+<ReplaceImage       
+
+sourcePath="Cards\uk_gurkhas.tgv.dds"                                                             
+targetPath="Data\WARGAME\PC\510019512\510024196\ZZ_4.dat"                                             
+targetContentPath="pc\texture\pack\commoninterface.ppk|+pc\texture\assets\2d\interface\common\unitsicons\otan\uk_gurkhas.tgv"/>
+
+	</Component>
+  </InstallCommands>
+  
+</WargameModInstallerConfig>
