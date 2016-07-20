@@ -270,3 +270,25 @@ System.InvalidOperationException: The installer was unable to find the following
    в WargameModInstaller.Services.Install.InstallerService.<InstallAsync>d__18.MoveNext()
 -----------------------------------------------------
 
+ERROR: 20.07.2016 13:55:38: 
+System.NotSupportedException: Unsupported PixelFormat B8G8R8A8_UNORM
+   в WargameModInstaller.Common.Utilities.Image.TGV.TgvUtilities.GetTgvFromPixelFormat(PixelFormats pixelFormat)
+   в WargameModInstaller.Infrastructure.Image.TgvDDSMoMipMapsReader.Read(String filePath)
+   в WargameModInstaller.Services.Commands.Base.ModImageBySourceCmdExecutor`1.DDSFileToTgv(String sourceFullPath, Boolean discardMipMaps)
+   в WargameModInstaller.Services.Commands.ReplaceImageCmdExecutor.ExecuteCommandsLogic(CmdsExecutionData data)
+   в WargameModInstaller.Services.Commands.Base.ModNestedTargetBySourceCmdExecutor`1.ExecuteInternal(CmdExecutionContext context, CancellationToken token)
+   в WargameModInstaller.Services.Commands.Base.CmdExecutorBase`1.Execute(CmdExecutionContext context, CancellationToken token)
+   в WargameModInstaller.Services.Commands.SharedNestedTargetCmdsExecutor.Execute(CmdExecutionContext context, CancellationToken token)
+   в WargameModInstaller.Services.Install.InstallerService.<RunInstallAsync>b__27()
+   в System.Threading.Tasks.Task.InnerInvoke()
+   в System.Threading.Tasks.Task.Execute()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в WargameModInstaller.Services.Install.InstallerService.<RunInstallAsync>d__2c.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в WargameModInstaller.Services.Install.InstallerService.<InstallAsync>d__18.MoveNext()
+-----------------------------------------------------
+

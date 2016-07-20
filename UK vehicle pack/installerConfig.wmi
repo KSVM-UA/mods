@@ -299,6 +299,16 @@ sourcePath="Cards\chieftain_mk_10.tgv.dds"
 targetPath="Data\WARGAME\PC\510019512\510024196\ZZ_4.dat"                                             
 targetContentPath="pc\texture\pack\commoninterface.ppk|+pc\texture\assets\2d\interface\common\unitsicons\otan\chieftain_mk_10.tgv"/>
 
+<ReplaceImage       
+sourcePath="Cards\challenger_mk_2_uk.tgv.dds"                                                             
+targetPath="Data\WARGAME\PC\510019512\510024196\ZZ_4.dat"                                             
+targetContentPath="pc\texture\pack\commoninterface.ppk|+pc\texture\assets\2d\interface\common\unitsicons\otan\challenger_mk_2_uk.tgv"/>
+
+<ReplaceImage       
+sourcePath="Cards\tornado_adv.tgv.dds"                                                             
+targetPath="Data\WARGAME\PC\510019512\510024196\ZZ_4.dat"                                             
+targetContentPath="pc\texture\pack\commoninterface.ppk|+pc\texture\assets\2d\interface\common\unitsicons\otan\tornado_adv.tgv"/>
+
 	</Component>
   </InstallCommands>
   
