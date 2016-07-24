@@ -246,3 +246,27 @@ System.InvalidOperationException: The installer was unable to find the following
    в WargameModInstaller.Services.Install.InstallerService.<InstallAsync>d__18.MoveNext()
 -----------------------------------------------------
 
+WARNING: 24.07.2016 17:40:02: 
+The following content file: "pc\texture\assets\2d\interface\common\unitsicons\otan\can_bizon_81mm.tgv"cannot be get from the specified container file.
+-----------------------------------------------------
+
+ERROR: 24.07.2016 17:40:02: 
+System.InvalidOperationException: The installer was unable to find the following content file "pc\texture\assets\2d\interface\common\unitsicons\otan\can_bizon_81mm.tgv"
+   в WargameModInstaller.Model.Containers.Edata.EdataFile.GetContentFileByPath(String contentPath)
+   в WargameModInstaller.Services.Commands.ReplaceImageCmdExecutor.ExecuteCommandsLogic(CmdsExecutionData data)
+   в WargameModInstaller.Services.Commands.Base.ModNestedTargetBySourceCmdExecutor`1.ExecuteInternal(CmdExecutionContext context, CancellationToken token)
+   в WargameModInstaller.Services.Commands.Base.CmdExecutorBase`1.Execute(CmdExecutionContext context, CancellationToken token)
+   в WargameModInstaller.Services.Commands.SharedNestedTargetCmdsExecutor.Execute(CmdExecutionContext context, CancellationToken token)
+   в WargameModInstaller.Services.Install.InstallerService.<RunInstallAsync>b__27()
+   в System.Threading.Tasks.Task.InnerInvoke()
+   в System.Threading.Tasks.Task.Execute()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в WargameModInstaller.Services.Install.InstallerService.<RunInstallAsync>d__2c.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в WargameModInstaller.Services.Install.InstallerService.<InstallAsync>d__18.MoveNext()
+-----------------------------------------------------
+

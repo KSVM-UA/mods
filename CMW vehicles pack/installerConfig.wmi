@@ -200,6 +200,16 @@ sourcePath="Cards\wolverine_can.tgv.dds"
 targetPath="Data\WARGAME\PC\510019512\510024196\ZZ_4.dat"                                             
 targetContentPath="pc\texture\pack\commoninterface.ppk|+pc\texture\assets\2d\interface\common\unitsicons\otan\wolverine_can.tgv"/>
 
+<ReplaceImage       
+sourcePath="Cards\can_bison_81mm.tgv.dds"                                                             
+targetPath="Data\WARGAME\PC\510019512\510024196\ZZ_4.dat"                                             
+targetContentPath="pc\texture\pack\commoninterface.ppk|+pc\texture\assets\2d\interface\common\unitsicons\otan\can_bison_81mm.tgv"/>
+
+<ReplaceImage       
+sourcePath="Cards\can_hlvw.tgv.dds"                                                             
+targetPath="Data\WARGAME\PC\510019512\510024196\ZZ_4.dat"                                             
+targetContentPath="pc\texture\pack\commoninterface.ppk|+pc\texture\assets\2d\interface\common\unitsicons\otan\can_hlvw.tgv"/>
+
 	</Component>
   </InstallCommands>
   
