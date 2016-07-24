@@ -1,0 +1,206 @@
+<?xml version='1.0'?>
+<WargameModInstallerConfig>
+
+  <Settings>
+    
+    <General>
+
+      <WargameVersion Version="RD"/>
+
+      <ModName>CMW vehicle pack by #RDA kvasius</ModName>
+
+      <CriticalCommands Value="True"/>
+
+      <InstallationBackup Value="False"/>   
+    </General>
+    
+    <UI>
+      <Screens>
+
+        <WelcomeScreen>
+          <Header Text="CMW vehicle pack by #RDA kvasius"/>
+    
+        </WelcomeScreen>
+
+        <LocationScreen>
+		  <Header Text="Please locate your Wargame Red Dragon's files."/>
+        </LocationScreen>
+
+        <ComponentSelectionScreen>
+		  <Header Text="Please select what do you want to install."/>
+        </ComponentSelectionScreen>
+
+        <ProgressScreen>
+		  <Header Text="Installation is ongoing."/>
+        </ProgressScreen>
+
+        <InstallCompletedScreen>
+		  <Header Text="The installation of icons is complete."/>
+        </InstallCompletedScreen>
+
+        <InstallFailedScreen>
+		  <Header Text="Something went wrong..Please be sure you haven't touched the Files, if you have, please delete that folder and re-extract the files without touching them, then execute the installer."/>
+        </InstallFailedScreen>
+
+        <InstallCanceledScreen>
+		  <Header Text="The installation has been cancelled."/>
+        </InstallCanceledScreen>
+      </Screens>
+    </UI>
+    
+  </Settings>
+  
+  
+  
+  <InstallCommands>	   
+
+   <Component name="CMW vehicle pack by #RDA kvasius" type="Required" text="CMW vehicle pack by #RDA kvasius">
+
+<ReplaceImage       
+      sourcePath="Cards\a4k_kahu_anz.tgv.dds"                                                          
+targetPath="Data\WARGAME\PC\510019512\510024196\ZZ_4.dat"                                             
+targetContentPath="pc\texture\pack\commoninterface.ppk|+pc\texture\assets\2d\interface\common\unitsicons\otan\a4k_kahu_anz.tgv"/>
+
+<ReplaceImage       
+      sourcePath="Cards\aslav_c.tgv.dds"                                                          
+targetPath="Data\WARGAME\PC\510019512\510024196\ZZ_4.dat"                                             
+targetContentPath="pc\texture\pack\commoninterface.ppk|+pc\texture\assets\2d\interface\common\unitsicons\otan\aslav_c.tgv"/>
+   
+<ReplaceImage       
+      sourcePath="Cards\aslav25_anz.tgv.dds"                                                          
+targetPath="Data\WARGAME\PC\510019512\510024196\ZZ_4.dat"                                             
+targetContentPath="pc\texture\pack\commoninterface.ppk|+pc\texture\assets\2d\interface\common\unitsicons\otan\aslav25_anz.tgv"/>
+
+<ReplaceImage                
+          sourcePath="Cards\bushranger_anz.tgv.dds"                                                             
+targetPath="Data\WARGAME\PC\510019512\510024196\ZZ_4.dat"                                             
+targetContentPath="pc\texture\pack\commoninterface.ppk|+pc\texture\assets\2d\interface\common\unitsicons\otan\bushranger_anz.tgv"/>
+
+<ReplaceImage       
+sourcePath="Cards\can_coyote.tgv.dds"                                                             
+targetPath="Data\WARGAME\PC\510019512\510024196\ZZ_4.dat"                                             
+targetContentPath="pc\texture\pack\commoninterface.ppk|+pc\texture\assets\2d\interface\common\unitsicons\otan\can_coyote.tgv"/>
+
+<ReplaceImage       
+
+sourcePath="Cards\can_iltis_cp.tgv.dds"                                                          
+targetPath="Data\WARGAME\PC\510019512\510024196\ZZ_4.dat"                                             
+targetContentPath="pc\texture\pack\commoninterface.ppk|+pc\texture\assets\2d\interface\common\unitsicons\otan\can_iltis_cp.tgv"/>
+
+<ReplaceImage
+                
+sourcePath="Cards\can_leoc2_mexas.tgv.dds"                                                             
+targetPath="Data\WARGAME\PC\510019512\510024196\ZZ_4.dat"                                             
+targetContentPath="pc\texture\pack\commoninterface.ppk|+pc\texture\assets\2d\interface\common\unitsicons\otan\can_leoc2_mexas.tgv"/>
+
+<ReplaceImage       
+
+sourcePath="Cards\can_leopard_c2.tgv.dds"                                                             
+targetPath="Data\WARGAME\PC\510019512\510024196\ZZ_4.dat"                                             
+targetContentPath="pc\texture\pack\commoninterface.ppk|+pc\texture\assets\2d\interface\common\unitsicons\otan\can_leopard_c2.tgv"/>
+
+<ReplaceImage 
+      
+      sourcePath="Cards\can_m109_a2.tgv.dds"                                                          
+targetPath="Data\WARGAME\PC\510019512\510024196\ZZ_4.dat"                                             
+targetContentPath="pc\texture\pack\commoninterface.ppk|+pc\texture\assets\2d\interface\common\unitsicons\otan\can_m109_a2.tgv"/>
+
+<ReplaceImage  
+              
+sourcePath="Cards\can_m125_a1.tgv.dds"                                                             
+targetPath="Data\WARGAME\PC\510019512\510024196\ZZ_4.dat"                                             
+targetContentPath="pc\texture\pack\commoninterface.ppk|+pc\texture\assets\2d\interface\common\unitsicons\otan\can_m125_a1.tgv"/>
+
+<ReplaceImage       
+
+sourcePath="Cards\cf18.tgv.dds"                                                             
+targetPath="Data\WARGAME\PC\510019512\510024196\ZZ_4.dat"                                             
+targetContentPath="pc\texture\pack\commoninterface.ppk|+pc\texture\assets\2d\interface\common\unitsicons\otan\cf18.tgv"/>
+
+<ReplaceImage                
+          sourcePath="Cards\cf18_hornet.tgv.dds"                                                             
+targetPath="Data\WARGAME\PC\510019512\510024196\ZZ_4.dat"                                             
+targetContentPath="pc\texture\pack\commoninterface.ppk|+pc\texture\assets\2d\interface\common\unitsicons\otan\cf18_hornet.tgv"/>
+
+<ReplaceImage       
+
+sourcePath="Cards\ch136.tgv.dds"                                                             
+targetPath="Data\WARGAME\PC\510019512\510024196\ZZ_4.dat"                                             
+targetContentPath="pc\texture\pack\commoninterface.ppk|+pc\texture\assets\2d\interface\common\unitsicons\otan\ch136.tgv"/>
+
+<ReplaceImage  
+   
+sourcePath="Cards\chimera.tgv.dds"                                                          
+targetPath="Data\WARGAME\PC\510019512\510024196\ZZ_4.dat"                                             
+targetContentPath="pc\texture\pack\commoninterface.ppk|+pc\texture\assets\2d\interface\common\unitsicons\otan\chimera.tgv"/>
+
+<ReplaceImage                
+          sourcePath="Cards\ef_101b_electric_voodoo.tgv.dds"                                                             
+targetPath="Data\WARGAME\PC\510019512\510024196\ZZ_4.dat"                                             
+targetContentPath="pc\texture\pack\commoninterface.ppk|+pc\texture\assets\2d\interface\common\unitsicons\otan\ef_101b_electric_voodoo.tgv"/>
+
+<ReplaceImage       
+
+sourcePath="Cards\f111cs_anz.tgv.dds"                                                             
+targetPath="Data\WARGAME\PC\510019512\510024196\ZZ_4.dat"                                             
+targetContentPath="pc\texture\pack\commoninterface.ppk|+pc\texture\assets\2d\interface\common\unitsicons\otan\f111cs_anz.tgv"/>
+
+<ReplaceImage       
+      sourcePath="Cards\fa18a_hornet_anz.tgv.dds"                                                          
+targetPath="Data\WARGAME\PC\510019512\510024196\ZZ_4.dat"                                             
+targetContentPath="pc\texture\pack\commoninterface.ppk|+pc\texture\assets\2d\interface\common\unitsicons\otan\fa18a_hornet_anz.tgv"/>
+
+<ReplaceImage       
+      sourcePath="Cards\fv101_scorpion_anz.tgv.dds"                                                          
+targetPath="Data\WARGAME\PC\510019512\510024196\ZZ_4.dat"                                             
+targetContentPath="pc\texture\pack\commoninterface.ppk|+pc\texture\assets\2d\interface\common\unitsicons\otan\fv101_scorpion_anz.tgv"/>
+
+<ReplaceImage                
+          sourcePath="Cards\leopard_as1_1982_anz.tgv.dds"                                                             
+targetPath="Data\WARGAME\PC\510019512\510024196\ZZ_4.dat"                                             
+targetContentPath="pc\texture\pack\commoninterface.ppk|+pc\texture\assets\2d\interface\common\unitsicons\otan\leopard_as1_1982_anz.tgv"/>
+
+<ReplaceImage       
+sourcePath="Cards\leopard_as1_1985_anz.tgv.dds"                                                             
+targetPath="Data\WARGAME\PC\510019512\510024196\ZZ_4.dat"                                             
+targetContentPath="pc\texture\pack\commoninterface.ppk|+pc\texture\assets\2d\interface\common\unitsicons\otan\leopard_as1_1985_anz.tgv"/>
+
+<ReplaceImage       
+sourcePath="Cards\lrpv_perentie_anz.tgv.dds"                                                             
+targetPath="Data\WARGAME\PC\510019512\510024196\ZZ_4.dat"                                             
+targetContentPath="pc\texture\pack\commoninterface.ppk|+pc\texture\assets\2d\interface\common\unitsicons\otan\lrpv_perentie_anz.tgv"/>
+
+<ReplaceImage       
+sourcePath="Cards\leopard_c1.tgv.dds"                                                             
+targetPath="Data\WARGAME\PC\510019512\510024196\ZZ_4.dat"                                             
+targetContentPath="pc\texture\pack\commoninterface.ppk|+pc\texture\assets\2d\interface\common\unitsicons\otan\leopard_c1.tgv"/>
+
+<ReplaceImage       
+sourcePath="Cards\m113_adats.tgv.dds"                                                             
+targetPath="Data\WARGAME\PC\510019512\510024196\ZZ_4.dat"                                             
+targetContentPath="pc\texture\pack\commoninterface.ppk|+pc\texture\assets\2d\interface\common\unitsicons\otan\m113_adats.tgv"/>
+
+<ReplaceImage       
+sourcePath="Cards\m113_tua.tgv.dds"                                                             
+targetPath="Data\WARGAME\PC\510019512\510024196\ZZ_4.dat"                                             
+targetContentPath="pc\texture\pack\commoninterface.ppk|+pc\texture\assets\2d\interface\common\unitsicons\otan\m113_tua.tgv"/>
+
+<ReplaceImage       
+sourcePath="Cards\m125a1_anz.tgv.dds"                                                             
+targetPath="Data\WARGAME\PC\510019512\510024196\ZZ_4.dat"                                             
+targetContentPath="pc\texture\pack\commoninterface.ppk|+pc\texture\assets\2d\interface\common\unitsicons\otan\m125a1_anz.tgv"/>
+
+<ReplaceImage       
+sourcePath="Cards\vickers_lrpv.tgv.dds"                                                             
+targetPath="Data\WARGAME\PC\510019512\510024196\ZZ_4.dat"                                             
+targetContentPath="pc\texture\pack\commoninterface.ppk|+pc\texture\assets\2d\interface\common\unitsicons\otan\vickers_lrpv.tgv"/>
+
+<ReplaceImage       
+sourcePath="Cards\wolverine_can.tgv.dds"                                                             
+targetPath="Data\WARGAME\PC\510019512\510024196\ZZ_4.dat"                                             
+targetContentPath="pc\texture\pack\commoninterface.ppk|+pc\texture\assets\2d\interface\common\unitsicons\otan\wolverine_can.tgv"/>
+
+	</Component>
+  </InstallCommands>
+  
+</WargameModInstallerConfig>
