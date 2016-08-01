@@ -1,0 +1,216 @@
+<?xml version='1.0'?>
+<WargameModInstallerConfig>
+
+  <Settings>
+    
+    <General>
+
+      <WargameVersion Version="RD"/>
+
+      <ModName>CSLA+LWP vehicle pack by #RDA kvasius</ModName>
+
+      <CriticalCommands Value="True"/>
+
+      <InstallationBackup Value="False"/>   
+    </General>
+    
+    <UI>
+      <Screens>
+
+        <WelcomeScreen>
+          <Header Text="CSLA+LWP vehicle pack by #RDA kvasius"/>
+    
+        </WelcomeScreen>
+
+        <LocationScreen>
+		  <Header Text="Please locate your Wargame Red Dragon's files."/>
+        </LocationScreen>
+
+        <ComponentSelectionScreen>
+		  <Header Text="Please select what do you want to install."/>
+        </ComponentSelectionScreen>
+
+        <ProgressScreen>
+		  <Header Text="Installation is ongoing."/>
+        </ProgressScreen>
+
+        <InstallCompletedScreen>
+		  <Header Text="The installation of icons is complete."/>
+        </InstallCompletedScreen>
+
+        <InstallFailedScreen>
+		  <Header Text="Something went wrong..Please be sure you haven't touched the Files, if you have, please delete that folder and re-extract the files without touching them, then execute the installer."/>
+        </InstallFailedScreen>
+
+        <InstallCanceledScreen>
+		  <Header Text="The installation has been cancelled."/>
+        </InstallCanceledScreen>
+      </Screens>
+    </UI>
+    
+  </Settings>
+  
+  
+  
+  <InstallCommands>	   
+
+   <Component name="CSLA+LWP vehicle pack by #RDA kvasius" type="Required" text="CSLA+LWP vehicle pack by #RDA kvasius">
+
+<ReplaceImage       
+      sourcePath="Cards\bpzv_snezka.tgv.dds"                                                          
+targetPath="Data\WARGAME\PC\510019512\510024196\ZZ_4.dat"                                             
+targetContentPath="pc\texture\pack\commoninterface.ppk|+pc\texture\assets\2d\interface\common\unitsicons\pact\bpzv_snezka.tgv"/>
+
+<ReplaceImage       
+      sourcePath="Cards\bpzv_svatava.tgv.dds"                                                          
+targetPath="Data\WARGAME\PC\510019512\510024196\ZZ_4.dat"                                             
+targetContentPath="pc\texture\pack\commoninterface.ppk|+pc\texture\assets\2d\interface\common\unitsicons\pact\bpzv_svatava.tgv"/>
+   
+<ReplaceImage       
+      sourcePath="Cards\cz_brdm2_konkurs.tgv.dds"                                                          
+targetPath="Data\WARGAME\PC\510019512\510024196\ZZ_4.dat"                                             
+targetContentPath="pc\texture\pack\commoninterface.ppk|+pc\texture\assets\2d\interface\common\unitsicons\pact\cz_brdm2_konkurs.tgv"/>
+
+<ReplaceImage                
+          sourcePath="Cards\m53_59_praga.tgv.dds"                                                             
+targetPath="Data\WARGAME\PC\510019512\510024196\ZZ_4.dat"                                             
+targetContentPath="pc\texture\pack\commoninterface.ppk|+pc\texture\assets\2d\interface\common\unitsicons\pact\m53_59_praga.tgv"/>
+
+<ReplaceImage       
+sourcePath="Cards\mi_25_cz_s24.tgv.dds"                                                             
+targetPath="Data\WARGAME\PC\510019512\510024196\ZZ_4.dat"                                             
+targetContentPath="pc\texture\pack\commoninterface.ppk|+pc\texture\assets\2d\interface\common\unitsicons\pact\mi_25_cz_s24.tgv"/>
+
+<ReplaceImage       
+
+sourcePath="Cards\mig23mf_rda.tgv.dds"                                                          
+targetPath="Data\WARGAME\PC\510019512\510024196\ZZ_4.dat"                                             
+targetContentPath="pc\texture\pack\commoninterface.ppk|+pc\texture\assets\2d\interface\common\unitsicons\pact\mig23mf_rda.tgv"/>
+
+<ReplaceImage
+                
+sourcePath="Cards\ot65a_vydra.tgv.dds"                                                             
+targetPath="Data\WARGAME\PC\510019512\510024196\ZZ_4.dat"                                             
+targetContentPath="pc\texture\pack\commoninterface.ppk|+pc\texture\assets\2d\interface\common\unitsicons\pact\ot65a_vydra.tgv"/>
+
+<ReplaceImage       
+
+sourcePath="Cards\pt76b_desant.tgv.dds"                                                             
+targetPath="Data\WARGAME\PC\510019512\510024196\ZZ_4.dat"                                             
+targetContentPath="pc\texture\pack\commoninterface.ppk|+pc\texture\assets\2d\interface\common\unitsicons\pact\pt76b_desant.tgv"/>
+
+<ReplaceImage 
+      
+      sourcePath="Cards\pt76b_dshk.tgv.dds"                                                          
+targetPath="Data\WARGAME\PC\510019512\510024196\ZZ_4.dat"                                             
+targetContentPath="pc\texture\pack\commoninterface.ppk|+pc\texture\assets\2d\interface\common\unitsicons\pact\pt76b_dshk.tgv"/>
+
+<ReplaceImage  
+              
+          sourcePath="Cards\pt91_twardy.tgv.dds"                                                             
+targetPath="Data\WARGAME\PC\510019512\510024196\ZZ_4.dat"                                             
+targetContentPath="pc\texture\pack\commoninterface.ppk|+pc\texture\assets\2d\interface\common\unitsicons\pact\pt91_twardy.tgv"/>
+
+<ReplaceImage       
+
+sourcePath="Cards\rm70_raketomet.tgv.dds"                                                             
+targetPath="Data\WARGAME\PC\510019512\510024196\ZZ_4.dat"                                             
+targetContentPath="pc\texture\pack\commoninterface.ppk|+pc\texture\assets\2d\interface\common\unitsicons\pact\rm70_raketomet.tgv"/>
+
+<ReplaceImage                
+          sourcePath="Cards\shm120_prams.tgv.dds"                                                             
+targetPath="Data\WARGAME\PC\510019512\510024196\ZZ_4.dat"                                             
+targetContentPath="pc\texture\pack\commoninterface.ppk|+pc\texture\assets\2d\interface\common\unitsicons\pact\shm120_prams.tgv"/>
+
+<ReplaceImage       
+
+sourcePath="Cards\strop_1.tgv.dds"                                                             
+targetPath="Data\WARGAME\PC\510019512\510024196\ZZ_4.dat"                                             
+targetContentPath="pc\texture\pack\commoninterface.ppk|+pc\texture\assets\2d\interface\common\unitsicons\pact\strop_1.tgv"/>
+
+<ReplaceImage  
+   
+sourcePath="Cards\strop_2.tgv.dds"                                                          
+targetPath="Data\WARGAME\PC\510019512\510024196\ZZ_4.dat"                                             
+targetContentPath="pc\texture\pack\commoninterface.ppk|+pc\texture\assets\2d\interface\common\unitsicons\pact\strop_2.tgv"/>
+
+<ReplaceImage                
+          sourcePath="Cards\su25_cz.tgv.dds"                                                             
+targetPath="Data\WARGAME\PC\430000587\430000609\ZZ_4.dat"                                             
+targetContentPath="pc\texture\pack\commoninterface.ppk|+pc\texture\assets\2d\interface\common\unitsicons\pact\su25_cz.tgv"/>
+
+<ReplaceImage       
+
+sourcePath="Cards\t55am_merida.tgv.dds"                                                             
+targetPath="Data\WARGAME\PC\510019512\510024196\ZZ_4.dat"                                             
+targetContentPath="pc\texture\pack\commoninterface.ppk|+pc\texture\assets\2d\interface\common\unitsicons\pact\t55am_merida.tgv"/>
+
+<ReplaceImage       
+      sourcePath="Cards\t55am2_dyna1.tgv.dds"                                                          
+targetPath="Data\WARGAME\PC\510019512\510024196\ZZ_4.dat"                                             
+targetContentPath="pc\texture\pack\commoninterface.ppk|+pc\texture\assets\2d\interface\common\unitsicons\pact\t55am2_dyna1.tgv"/>
+
+<ReplaceImage       
+      sourcePath="Cards\t55am2_merida.tgv.dds"                                                          
+targetPath="Data\WARGAME\PC\510019512\510024196\ZZ_4.dat"                                             
+targetContentPath="pc\texture\pack\commoninterface.ppk|+pc\texture\assets\2d\interface\common\unitsicons\pact\t55am2_merida.tgv"/>
+
+<ReplaceImage                
+          sourcePath="Cards\t72_moderna.tgv.dds"                                                             
+targetPath="Data\WARGAME\PC\510019512\510024196\ZZ_4.dat"                                             
+targetContentPath="pc\texture\pack\commoninterface.ppk|+pc\texture\assets\2d\interface\common\unitsicons\pact\t72_moderna.tgv"/>
+
+<ReplaceImage       
+sourcePath="Cards\t72s_cz.tgv.dds"                                                             
+targetPath="Data\WARGAME\PC\510019512\510024196\ZZ_4.dat"                                             
+targetContentPath="pc\texture\pack\commoninterface.ppk|+pc\texture\assets\2d\interface\common\unitsicons\pact\t72s_cz.tgv"/>
+
+<ReplaceImage       
+sourcePath="Cards\t72s_pol.tgv.dds"                                                             
+targetPath="Data\WARGAME\PC\510019512\510024196\ZZ_4.dat"                                             
+targetContentPath="pc\texture\pack\commoninterface.ppk|+pc\texture\assets\2d\interface\common\unitsicons\pact\t72s_pol.tgv"/>
+
+<ReplaceImage       
+sourcePath="Cards\t815_kolos.tgv.dds"                                                             
+targetPath="Data\WARGAME\PC\510019512\510024196\ZZ_4.dat"                                             
+targetContentPath="pc\texture\pack\commoninterface.ppk|+pc\texture\assets\2d\interface\common\unitsicons\pact\t815_kolos.tgv"/>
+
+<ReplaceImage       
+sourcePath="Cards\w3w_sokol.tgv.dds"                                                             
+targetPath="Data\WARGAME\PC\510019512\510024196\ZZ_4.dat"                                             
+targetContentPath="pc\texture\pack\commoninterface.ppk|+pc\texture\assets\2d\interface\common\unitsicons\pact\w3w_sokol.tgv"/>
+
+<ReplaceImage       
+sourcePath="Cards\mig29_cz.tgv.dds"                                                             
+targetPath="Data\WARGAME\PC\510019512\510024196\ZZ_4.dat"                                             
+targetContentPath="pc\texture\pack\commoninterface.ppk|+pc\texture\assets\2d\interface\common\unitsicons\pact\mig29_cz.tgv"/>
+
+<ReplaceImage       
+sourcePath="Cards\9k33m3_romb.tgv.dds"                                                             
+targetPath="Data\WARGAME\PC\510019512\510024196\ZZ_4.dat"                                             
+targetContentPath="pc\texture\pack\commoninterface.ppk|+pc\texture\assets\2d\interface\common\unitsicons\pact\9k33m3_romb.tgv"/>
+
+<ReplaceImage       
+sourcePath="Cards\t72m1_cz.tgv.dds"                                                             
+targetPath="Data\WARGAME\PC\510019512\510024196\ZZ_4.dat"                                             
+targetContentPath="pc\texture\pack\commoninterface.ppk|+pc\texture\assets\2d\interface\common\unitsicons\pact\t72m1_cz.tgv"/>
+
+<ReplaceImage       
+sourcePath="Cards\sopel.tgv.dds"                                                             
+targetPath="Data\WARGAME\PC\510019512\510024196\ZZ_4.dat"                                             
+targetContentPath="pc\texture\pack\commoninterface.ppk|+pc\texture\assets\2d\interface\common\unitsicons\pact\sopel.tgv"/>
+
+<ReplaceImage       
+sourcePath="Cards\wzt1_newa.tgv.dds"                                                             
+targetPath="Data\WARGAME\PC\510019512\510024196\ZZ_4.dat"                                             
+targetContentPath="pc\texture\pack\commoninterface.ppk|+pc\texture\assets\2d\interface\common\unitsicons\pact\wzt1_newa.tgv"/>
+
+<ReplaceImage       
+sourcePath="Cards\ondava.tgv.dds"                                                             
+targetPath="Data\WARGAME\PC\510019512\510024196\ZZ_4.dat"                                             
+targetContentPath="pc\texture\pack\commoninterface.ppk|+pc\texture\assets\2d\interface\common\unitsicons\pact\ondava.tgv"/>
+
+	</Component>
+  </InstallCommands>
+  
+</WargameModInstallerConfig>
