@@ -1,0 +1,169 @@
+<?xml version='1.0'?>
+<WargameModInstallerConfig>
+
+  <Settings>
+    
+    <General>
+
+      <WargameVersion Version="RD"/>
+
+      <ModName>USSR infantry pack by #RDA kvasius</ModName>
+
+      <CriticalCommands Value="True"/>
+
+      <InstallationBackup Value="False"/>   
+    </General>
+    
+    <UI>
+      <Screens>
+
+        <WelcomeScreen>
+          <Header Text="USSR infantry pack by #RDA kvasius"/>
+    
+        </WelcomeScreen>
+
+        <LocationScreen>
+		  <Header Text="Please locate your Wargame Red Dragon's files."/>
+        </LocationScreen>
+
+        <ComponentSelectionScreen>
+		  <Header Text="Please select what do you want to install."/>
+        </ComponentSelectionScreen>
+
+        <ProgressScreen>
+		  <Header Text="Installation is ongoing."/>
+        </ProgressScreen>
+
+        <InstallCompletedScreen>
+		  <Header Text="The installation of icons is complete."/>
+        </InstallCompletedScreen>
+
+        <InstallFailedScreen>
+		  <Header Text="Something went wrong..Please be sure you haven't touched the Files, if you have, please delete that folder and re-extract the files without touching them, then execute the installer."/>
+        </InstallFailedScreen>
+
+        <InstallCanceledScreen>
+		  <Header Text="The installation has been cancelled."/>
+        </InstallCanceledScreen>
+      </Screens>
+    </UI>
+    
+  </Settings>
+  
+  
+  
+  <InstallCommands>	   
+
+   <Component name="USSR infantry pack by #RDA kvasius" type="Required" text="Icons">
+
+<ReplaceImage       
+      sourcePath="Cards\90_motorstrelki.tgv.dds"                                                          
+targetPath="Data\WARGAME\PC\510019512\510024196\ZZ_4.dat"                                             
+targetContentPath="pc\texture\pack\commoninterface.ppk|+pc\texture\assets\2d\interface\common\unitsicons\pact\90_motorstrelki.tgv"/>
+
+<ReplaceImage       
+      sourcePath="Cards\urss_gornostrelki.tgv.dds"                                                          
+targetPath="Data\WARGAME\PC\510019512\510024196\ZZ_4.dat"                                             
+targetContentPath="pc\texture\pack\commoninterface.ppk|+pc\texture\assets\2d\interface\common\unitsicons\pact\urss_gornostrelki.tgv"/>
+   
+<ReplaceImage       
+      sourcePath="Cards\morskaya_pehota.tgv.dds"                                                          
+targetPath="Data\WARGAME\PC\510019512\510024196\ZZ_4.dat"                                             
+targetContentPath="pc\texture\pack\commoninterface.ppk|+pc\texture\assets\2d\interface\common\unitsicons\pact\morskaya_pehota.tgv"/>
+
+<ReplaceImage                
+          sourcePath="Cards\motorstrelki.tgv.dds"                                                             
+targetPath="Data\WARGAME\PC\510019512\510024196\ZZ_4.dat"                                             
+targetContentPath="pc\texture\pack\commoninterface.ppk|+pc\texture\assets\2d\interface\common\unitsicons\pact\motorstrelki.tgv"/>
+
+<ReplaceImage       
+sourcePath="Cards\ptur_faktoria.tgv.dds"                                                             
+targetPath="Data\WARGAME\PC\510019512\510024196\ZZ_4.dat"                                             
+targetContentPath="pc\texture\pack\commoninterface.ppk|+pc\texture\assets\2d\interface\common\unitsicons\pact\ptur_faktoria.tgv"/>
+
+<ReplaceImage       
+
+sourcePath="Cards\pzrk_strela_3.tgv.dds"                                                          
+targetPath="Data\WARGAME\PC\510019512\510024196\ZZ_4.dat"                                             
+targetContentPath="pc\texture\pack\commoninterface.ppk|+pc\texture\assets\2d\interface\common\unitsicons\pact\pzrk_strela_3.tgv"/>
+
+<ReplaceImage
+                
+          sourcePath="Cards\razvedka.tgv.dds"                                                             
+targetPath="Data\WARGAME\PC\510019512\510024196\ZZ_4.dat"                                             
+targetContentPath="pc\texture\pack\commoninterface.ppk|+pc\texture\assets\2d\interface\common\unitsicons\pact\razvedka.tgv"/>
+
+<ReplaceImage       
+
+sourcePath="Cards\sapery.tgv.dds"                                                             
+targetPath="Data\WARGAME\PC\510019512\510024196\ZZ_4.dat"                                             
+targetContentPath="pc\texture\pack\commoninterface.ppk|+pc\texture\assets\2d\interface\common\unitsicons\pact\sapery.tgv"/>
+
+<ReplaceImage 
+      
+      sourcePath="Cards\spetsnaz.tgv.dds"                                                          
+targetPath="Data\WARGAME\PC\510019512\510024196\ZZ_4.dat"                                             
+targetContentPath="pc\texture\pack\commoninterface.ppk|+pc\texture\assets\2d\interface\common\unitsicons\pact\spetsnaz.tgv"/>
+
+<ReplaceImage       
+
+sourcePath="Cards\spetsnaz_gru.tgv.dds"                                                             
+targetPath="Data\WARGAME\PC\510019512\510024196\ZZ_4.dat"                                             
+targetContentPath="pc\texture\pack\commoninterface.ppk|+pc\texture\assets\2d\interface\common\unitsicons\pact\spetsnaz_gru.tgv"/>
+
+<ReplaceImage      
+ 
+      sourcePath="Cards\spetsnaz_vmf.tgv.dds"                                                          
+targetPath="Data\WARGAME\PC\510019512\510024196\ZZ_4.dat"                                             
+targetContentPath="pc\texture\pack\commoninterface.ppk|+pc\texture\assets\2d\interface\common\unitsicons\pact\spetsnaz_vmf.tgv"/>
+
+<ReplaceImage                
+          sourcePath="Cards\urss_85_sapery.tgv.dds"                                                             
+targetPath="Data\WARGAME\PC\510019512\510024196\ZZ_4.dat"                                             
+targetContentPath="pc\texture\pack\commoninterface.ppk|+pc\texture\assets\2d\interface\common\unitsicons\pact\urss_85_sapery.tgv"/>
+
+<ReplaceImage       
+
+sourcePath="Cards\urss_90_gornostrelki.tgv.dds"                                                             
+targetPath="Data\WARGAME\PC\510019512\510024196\ZZ_4.dat"                                             
+targetContentPath="pc\texture\pack\commoninterface.ppk|+pc\texture\assets\2d\interface\common\unitsicons\pact\urss_90_gornostrelki.tgv"/>
+
+<ReplaceImage  
+   
+sourcePath="Cards\urss_90_morskaya.tgv.dds"                                                          
+targetPath="Data\WARGAME\PC\510019512\510024196\ZZ_4.dat"                                             
+targetContentPath="pc\texture\pack\commoninterface.ppk|+pc\texture\assets\2d\interface\common\unitsicons\pact\urss_90_morskaya.tgv"/>
+
+<ReplaceImage                
+          sourcePath="Cards\urss_90_vdv.tgv.dds"                                                             
+targetPath="Data\WARGAME\PC\510019512\510024196\ZZ_4.dat"                                             
+targetContentPath="pc\texture\pack\commoninterface.ppk|+pc\texture\assets\2d\interface\common\unitsicons\pact\urss_90_vdv.tgv"/>
+
+<ReplaceImage       
+
+sourcePath="Cards\urss_cmd_squad.tgv.dds"                                                             
+targetPath="Data\WARGAME\PC\510019512\510024196\ZZ_4.dat"                                             
+targetContentPath="pc\texture\pack\commoninterface.ppk|+pc\texture\assets\2d\interface\common\unitsicons\pact\urss_cmd_squad.tgv"/>
+
+<ReplaceImage       
+
+sourcePath="Cards\urss_igla1m.tgv.dds"                                                             
+targetPath="Data\WARGAME\PC\510019512\510024196\ZZ_4.dat"                                             
+targetContentPath="pc\texture\pack\commoninterface.ppk|+pc\texture\assets\2d\interface\common\unitsicons\pact\urss_igla1m.tgv"/>
+
+<ReplaceImage       
+
+sourcePath="Cards\urss_konkursm.tgv.dds"                                                             
+targetPath="Data\WARGAME\PC\510019512\510024196\ZZ_4.dat"                                             
+targetContentPath="pc\texture\pack\commoninterface.ppk|+pc\texture\assets\2d\interface\common\unitsicons\pact\urss_konkursm.tgv"/>
+
+<ReplaceImage       
+
+sourcePath="Cards\vdv.tgv.dds"                                                             
+targetPath="Data\WARGAME\PC\510019512\510024196\ZZ_4.dat"                                             
+targetContentPath="pc\texture\pack\commoninterface.ppk|+pc\texture\assets\2d\interface\common\unitsicons\pact\vdv.tgv"/>
+
+	</Component>
+  </InstallCommands>
+  
+</WargameModInstallerConfig>
