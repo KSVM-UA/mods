@@ -83,6 +83,12 @@ targetContentPath="pc\texture\pack\commoninterface.ppk|+pc\texture\assets\2d\int
 
 <ReplaceImage       
 
+sourcePath="Cards\pzrk_igla.tgv.dds"                                                          
+targetPath="Data\WARGAME\PC\510019512\510024196\ZZ_4.dat"                                             
+targetContentPath="pc\texture\pack\commoninterface.ppk|+pc\texture\assets\2d\interface\common\unitsicons\pact\pzrk_igla.tgv"/>
+
+<ReplaceImage       
+
 sourcePath="Cards\pzrk_strela_3.tgv.dds"                                                          
 targetPath="Data\WARGAME\PC\510019512\510024196\ZZ_4.dat"                                             
 targetContentPath="pc\texture\pack\commoninterface.ppk|+pc\texture\assets\2d\interface\common\unitsicons\pact\pzrk_strela_3.tgv"/>
