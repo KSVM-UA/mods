@@ -245,6 +245,11 @@ targetPath="Data\WARGAME\PC\510019512\510024196\ZZ_4.dat"
 targetContentPath="pc\texture\pack\commoninterface.ppk|+pc\texture\assets\2d\interface\common\unitsicons\otan\tigre_had_fr.tgv"/>
 
 <ReplaceImage       
+sourcePath="Cards\tigre_hap_fr.tgv.dds"                                                             
+targetPath="Data\WARGAME\PC\510019512\510024196\ZZ_4.dat"                                             
+targetContentPath="pc\texture\pack\commoninterface.ppk|+pc\texture\assets\2d\interface\common\unitsicons\otan\tigre_hap_fr.tgv"/>
+
+<ReplaceImage       
 sourcePath="Cards\vbl_fr.tgv.dds"                                                             
 targetPath="Data\WARGAME\PC\510019512\510024196\ZZ_4.dat"                                             
 targetContentPath="pc\texture\pack\commoninterface.ppk|+pc\texture\assets\2d\interface\common\unitsicons\otan\vbl_fr.tgv"/>
